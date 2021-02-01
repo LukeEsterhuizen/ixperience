@@ -133,7 +133,7 @@ i {
   z-index: 9999;
 }
 
-.lightGrey {background-color: #adcbe3; padding: 50px 0 50px 0}
+.lightGrey {background-color: #bed4e5; padding: 50px 0 50px 0}
 .darkGrey {background-color: #24262A;}
 
 .lightGrey img {
@@ -145,6 +145,10 @@ i {
 .lightGrey i {
   color: #f9007a;
 }
+
+.btn:hover {
+    color: #ffffff;
+  }
 
 .carousel-indicators li {
   border: 1px solid red;
@@ -309,10 +313,19 @@ header {
   color: #ffffff;
   display: block;
   margin-top: 50px;
+  padding: 15px
+}
+
+.pinkBtn:hover {
+  background-color: #1E90FF;
 }
 
 .blueBtn {
   background-color: #0056b3 !important;
+}
+
+.blueBtn:hover {
+  background-color: #1E90FF !important;
 }
 
 .headerBlock img {
