@@ -932,3 +932,19 @@ h4 {
   }
 
 }
+
+@media only screen and (max-width: 320px) {
+
+  .headerBlock {
+    margin: 40% auto;
+}
+
+.headerBlock h1 {
+    font-size: 28px;
+}
+
+.headerBlock a {
+    padding: 5px 20px;
+}
+
+}
